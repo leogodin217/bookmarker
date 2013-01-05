@@ -1,0 +1,459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"should",
+				"should_not"
+			],
+			[
+				"shou",
+				"should_not"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"descri",
+				"describe"
+			],
+			[
+				"it",
+				"its	it (should do something)"
+			],
+			[
+				"ajax",
+				"ajax	Google AJAX Libraries: jQuery"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "require 'spec_helper'\n\ndescribe Bookmark do\n  \n  it { should respond_to(:name) }\n  it { should respond_to(:url) }\n  it { should respond_to(:description) }\n\n  describe \"Validations\" do\n\n    before(:each) do\n      before { @bookmark = Bookmark.new(name: \"Tutorial Site\", \n                                   url: \"http://railstutorial.org\", \n                                   description: \"A great Rails 3.2 tutorial. Highly recommended\")}\n    end\n    # subject { @bookmark }\n\n    # it { should be_valid}\n\n    # describe \"With name too long\" do\n    #   before { subject.name = \"foo\" }\n    #   it { puts subject.inspect }\n\n    #   before { name = \"a\"*129}\n    #   it { should_not be_valid }\n    # end\n\n    # describe \"With no name\" do\n    #   before { name = \" \" }\n    #   it     { should_not be_valid }\n    # end\n  end\nend",
+			"file": "spec/unit/bookmark_spec.rb",
+			"file_size": 761,
+			"file_write_time": 1357397442000000,
+			"settings":
+			{
+				"buffer_size": 820,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "untitled.sublime-project",
+			"settings":
+			{
+				"buffer_size": 219,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"i",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"descr",
+				"Snippet: describe (String)"
+			],
+			[
+				"mig",
+				"Rails Latest Migration: Open latest Rails migration"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"respond",
+				"Snippet: should respond_to"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"snip it",
+				"Snippet: it (does something)"
+			],
+			[
+				"contex",
+				"Snippet: context"
+			],
+			[
+				"list",
+				"Simple Rails Navigator: List controllers"
+			],
+			[
+				"describe t",
+				"Snippet: describe (type)"
+			],
+			[
+				"describe",
+				"Snippet: describe (String)"
+			],
+			[
+				"spec_",
+				"Snippet: Require spec_helper"
+			],
+			[
+				"rspec",
+				"Set Syntax: RSpec"
+			],
+			[
+				"respec",
+				"Snippet: Require spec_helper"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"snip descr",
+				"Snippet: describe (String)"
+			],
+			[
+				"rspe",
+				"Set Syntax: RSpec"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"project: sa",
+				"Project: Save As"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"jquery ea",
+				"Snippet: jQuery.each"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set s emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"snip html",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"snip ht",
+				"Snippet: html"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"snip me",
+				"Snippet: <meta>"
+			],
+			[
+				"snip doc",
+				"Snippet: DOCTYPE HTML"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"sni h",
+				"Snippet: html"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/leo/Documents/rails/bookmarker/app/models/bookmark.rb",
+		"/home/leo/Documents/rails/bookmarker/db/migrate/20130105055112_create_bookmarks.rb",
+		"/home/leo/Documents/rails/bookmarker/spec/integration/home_spec.rb",
+		"/home/leo/Documents/rails/bookmarker/app/views/layouts/application.html.erb",
+		"/home/leo/Documents/rails/bookmarker/config/routes.rb",
+		"/home/leo/Documents/rails/bookmarker/app/controllers/bookmarks_controller.rb",
+		"/home/leo/Documents/rails/bookmarker/app/views/home/index.html.erb",
+		"/home/leo/Documents/rails/bookmarker/spec/integration/bookmark_spec.rb",
+		"/home/leo/Documents/rails/bookmarker/app/views/bookmarks/index.html.erb",
+		"/home/leo/Documents/rails/bookmarker/spec/spec_helper.rb",
+		"/home/leo/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/leo/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/leo/setup/setup.sh",
+		"/etc/apt/sources.list",
+		"/home/leo/.bashrc",
+		"/home/leo/Dropbox/This is your Dropbox.txt",
+		"/home/leo/Documents/rails/rails-starter/rails-starter.sublime-project",
+		"/home/leo/Documents/learningfiles/zencoding/css/style.css",
+		"/home/leo/Documents/learningfiles/zencoding/index.html",
+		"/home/leo/Documents/learningfiles/navlists/css/style.css",
+		"/home/leo/Documents/learningfiles/navlists/index.html",
+		"/home/leo/Documents/learningfiles/positioning/css/style.css",
+		"/home/leo/Documents/learningfiles/positioning/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"map."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spec/unit/bookmark_spec.rb",
+					"settings":
+					{
+						"buffer_size": 820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/RSpec/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "untitled.sublime-project",
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/models/bookmark.rb"
+			],
+			[
+				"book",
+				"app/models/bookmark.rb"
+			],
+			[
+				"spe",
+				"spec/unit/bookmark_spec.rb"
+			],
+			[
+				"ind",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"lay",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"spec",
+				"spec/integration/bookmark_spec.rb"
+			],
+			[
+				"homein",
+				"app/views/home/index.html.erb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"spec_",
+				"spec/spec_helper.rb"
+			],
+			[
+				"sublim",
+				"rails-starter.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
